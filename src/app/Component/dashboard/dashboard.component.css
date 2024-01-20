@@ -1,0 +1,77 @@
+/* dashboard.css */
+.profile-img{
+  margin-left: 20px;
+  display: flex;
+  /* flex-direction: column; */
+}
+.profile{
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin-left: 50px;
+}
+.profile-img b{
+  padding-left: 8px ;
+  /* border: 2px solid red; */
+}
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .navbar {
+    background-color: #007BFF;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+  }
+  
+  .logo img {
+    max-width: 50%;
+  }
+  .search-bar{
+    width: 40%;
+  }
+  .search-bar input {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .nav-links{
+    display: flex;
+    font-size: 1.5rem;
+    /* border: 1px solid red; */
+    padding: 5px;
+  }
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+  }
+  
+  .dashboard-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card h3 {
+    color: #007BFF;
+  }
+  
+  .card p {
+    color: #333;
+  }
+  

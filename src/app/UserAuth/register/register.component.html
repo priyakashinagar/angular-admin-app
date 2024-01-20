@@ -1,0 +1,24 @@
+
+<div class="register-container">
+    <h2>Register</h2>
+    <form>
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" [(ngModel)]="name" class="form-control" required>
+      </div>
+      <div class="form-group">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" [(ngModel)]="username" class="form-control" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" [(ngModel)]="password" class="form-control" required>
+      </div>
+      <div class="form-group">
+        <label for="mobile">Mobile Number:</label>
+        <input type="tel" id="mobile" name="mobile" [(ngModel)]="mobile" class="form-control" required>
+      </div>
+      <button type="submit" class="btn btn-primary" (click)="userRegistration()">Register</button>
+    </form>
+  </div>
+  

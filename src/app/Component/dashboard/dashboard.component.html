@@ -1,0 +1,32 @@
+<nav class="navbar">
+  <div class="logo">
+    <img src="../../../assets/hitech-enterprises-logo-2.webp" alt="Logo">
+  </div>
+  <div class="search-bar">
+    <input type="text" placeholder="Search...">
+  </div>
+  <div class="nav-links">
+    <a href="/login">Login</a>
+    <a href="/registration">Register</a>
+    <a href="/login" (click)="userLogOut()">Logout</a>
+    <div class="profile-img">
+      <img
+        src="../../../assets/mypic.enc"
+        class="profile" alt="" srcset="">
+      <b>{{userData.name}}</b>
+    </div> 
+    
+  </div>
+</nav>
+<!-- Dashboard Content -->
+<div class="dashboard-container">
+  <h1 style="color:blue;font-size: 70px;">Welcome to the Hi Tech Global Software Solutions</h1>
+  <div class="card">
+    <h3>Card 1</h3>
+    <p>Content of Card 1 goes here.</p>
+  </div>
+  <div class="card">
+    <h3>Card 2</h3>
+    <p>Content of Card 2 goes here.</p>
+  </div>
+</div>
